@@ -36,5 +36,9 @@ Tekst = \lyricmode {
 }
 
 \include "MusicInc.inc"
-\markup "Oorspronkelijke titel: Am Aschermittwoch ist alles vorbei"
+\markuplist {
+	\justify {
+		Oorspronkelijke titel: Am Aschermittwoch ist alles vorbei.
+	}
+}
 %\markup \vspace #1

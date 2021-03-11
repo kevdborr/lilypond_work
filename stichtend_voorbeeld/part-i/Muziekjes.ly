@@ -121,4 +121,7 @@ newSection = "Hits in Lembeek"
 \pageBreak
 \include "PasenWoensdag.ly"
 \pageBreak
+\include "Smurfen.ly"
+\pageBreak
+\include "Fehrbelliner.ly"
 %--------------------------------------------------------------------------------------------------------------------------	
