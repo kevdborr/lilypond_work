@@ -114,14 +114,16 @@ newSection = "Voor de Gelegenheid"
 \include "muziekjes/Adieu.ly"
 %--------------------------------------------------------------------------------------------------------------------------	
 \pageBreak
-newSection = "Hits in Lembeek"
+newSection = "Traditioneel in Lembeek"
 \include "SectionInc.inc" 
 \include "OpZeLembeiks.ly"
 \include "Lembecquois.ly"
 \pageBreak
-\include "PasenWoensdag.ly"
+\include "Fehrbelliner.ly"
 \pageBreak
 \include "Smurfen.ly"
 \pageBreak
-\include "Fehrbelliner.ly"
+\include "PasenWoensdag.ly"
+\pageBreak
+\include "Groskes.ly"
 %--------------------------------------------------------------------------------------------------------------------------	
