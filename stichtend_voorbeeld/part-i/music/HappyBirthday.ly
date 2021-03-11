@@ -20,7 +20,8 @@ Tekst = \lyricmode {
 
 \markuplist {
 	\justify {
-		Het Stichtend Voorbeeld zegt: alle voornamen zijn goed, ze moeten wel op de juiste 2 tellen gezongen worden. 
+		Het Stichtend Voorbeeld zegt: Alle voornamen zijn goed, ze moeten wel op de juiste 2 tellen gezongen worden. 
+		Na het spelen van de melodie wordt meestal een snelle (4/4) swing-versie ingezet. 
 	}
 }
 \markup \vspace #1
