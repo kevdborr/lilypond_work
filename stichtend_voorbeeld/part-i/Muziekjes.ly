@@ -101,7 +101,7 @@ tocSection = #(define-music-function (parser location text) (markup?)
 \pageBreak
 newSection = "Voor de Gelegenheid"
 \include "SectionInc.inc" 
-\include "Verjaren1.ly"
+\include "LangZalZeLeven.ly"
 \include "Verjaren2.ly"
 \include "Verjaren3.ly"
 \pageBreak
