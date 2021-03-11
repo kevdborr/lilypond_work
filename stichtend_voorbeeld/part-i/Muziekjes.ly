@@ -10,8 +10,8 @@ Auteur = "door Johan Rimez en Kenneth Vandenborre"
 	bottom-margin = 1\cm
 	left-margin = 1\cm
 	right-margin = 1\cm  
-	%after-title-space = 1\cm
-	%before-title-space = 10\cm
+	after-title-space = 1\cm
+	before-title-space = 10\cm
 	ragged-bottom = ##t
 	ragged-right = ##f
    
@@ -52,7 +52,10 @@ Auteur = "door Johan Rimez en Kenneth Vandenborre"
   	}
 }
 \layout {
-	\context { \Score \override LyricText #'font-size = #-0.5 }
+	\context { 
+		\Score \override LyricText #'font-size = #-0.5 
+		\remove "Bar_number_engraver"
+	}
 }
 %--------------------------------------------------------------------------------------------------------------------------	
 MuzTranspo = #(define-music-function (parser location root trans)(ly:music? ly:music?)
@@ -93,6 +96,7 @@ tocSection = #(define-music-function (parser location text) (markup?)
 }
 \markup \vspace #2
 \markuplist \table-of-contents
+\markup \vspace #2
 \markup \tiny "Gebruiksaanwijzing: afdrukken op A4 landscape met 4 pagina's per bladzijde, lange en korte zijde middendoor knippen"
 %--------------------------------------------------------------------------------------------------------------------------	
 % \markup " "
@@ -102,7 +106,9 @@ tocSection = #(define-music-function (parser location text) (markup?)
 newSection = "Voor de Gelegenheid"
 \include "SectionInc.inc" 
 \include "LangZalZeLeven.ly"
-\include "Verjaren2.ly"
-\include "Verjaren3.ly"
+\include "HappyBirthday.ly"
+\include "ErIsErEenJarig.ly"
 \pageBreak
+\include "EinProsit.ly"
+\include "JaDatVoelenWij.ly"
 %--------------------------------------------------------------------------------------------------------------------------	

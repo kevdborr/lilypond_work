@@ -10,15 +10,13 @@ Muziek = \relative c''
 
 Akkoorden = \chords { }
 	
-Tekst = \lyricmode 
-{
+Tekst = \lyricmode {
 	Lang zal ze le -- ven, lang zal ze le -- ven, lang zal ze le -- ven in de glo -- ri -- a!
 	In de glo -- ri -- a, in de glo -- ri -- a!
 }
 
 \include "MusicInc.inc"
 
-\markup \vspace #1
 \markuplist {
 	\justify {
 		Het Stichtend Voorbeeld zegt: Natuurlijk bestaat er een variant 'Lang zal HIJ leven'. 
