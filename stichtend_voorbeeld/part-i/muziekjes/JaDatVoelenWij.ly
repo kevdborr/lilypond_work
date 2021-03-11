@@ -4,11 +4,11 @@ Componist = "Trad."
 Muziek = \relative c'' 
 {
 	\key f \major
-    \time 2/4
-    \repeat volta 2 {
-        c4. bes8 | a8 a a4 | c4. bes8 | a a a4 | g4. a8 | bes4 bes | a4. bes8 | c4 c \break
-        c4. bes8 | a8 a a4 | c4. bes8 | a a a4 | g4.^"rit." a8 | bes4 e, | g2 | f
-    }
+	\time 2/4
+	\repeat volta 2 {
+		c4. bes8 | a8 a a4 | c4. bes8 | a a a4 | g4. a8 | bes4 bes | a4. bes8 | c4 c \break
+		c4. bes8 | a8 a a4 | c4. bes8 | a a a4 | g4.^"rit." a8 | bes4 e, | g2 | f
+	}
 }
 Akkoorden = \chords { }
 	

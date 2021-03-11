@@ -3,17 +3,17 @@ Componist = "Iemand uit Lembeek?"
 Muziek = \relative c'' 
 {
 	\key f \major  
-    \time 6/8
+	\time 6/8
 	\new Voice = "melody" {
-    	\repeat volta 2 {
-    		c4^"Couplet" d8 c4 a8 | c4 d8 c4 a8 | c4 d8 c4 a8 |
+		\repeat volta 2 {
+			c4^"Couplet" d8 c4 a8 | c4 d8 c4 a8 | c4 d8 c4 a8 |
 			f4. g4 g8 | a4.~a4 a8 | c4 bes8 a4 g8 |
   		}
   		\alternative {
-    		{ f4.-> \override NoteHead.style = #'cross f-> | f-> f-> \revert NoteHead.style \break }
-    	    { f4. \override NoteHead.style = #'cross f-> | f-> f-> \revert NoteHead.style \bar "||" }
-    	}	
-    	a4 g8 a4 bes8 | a4 g8 a4 bes8  | a2. | c4 c8 c4 c8 |
+			{ f4.-> \override NoteHead.style = #'cross f-> | f-> f-> \revert NoteHead.style \break }
+			{ f4. \override NoteHead.style = #'cross f-> | f-> f-> \revert NoteHead.style \bar "||" }
+		}	
+		a4 g8 a4 bes8 | a4 g8 a4 bes8  | a2. | c4 c8 c4 c8 |
 		c4 c8 c4 d8 | c2.-> | bes-> | a-> | g->\fermata \break
 
 		\repeat volta 2 {
@@ -21,7 +21,7 @@ Muziek = \relative c''
 			c8 d c bes c bes | a bes a g a g | 
 		}
 		\alternative {
-    	    { f4.-> \override NoteHead.style = #'cross f-> | f-> f-> \revert NoteHead.style  }
+			{ f4.-> \override NoteHead.style = #'cross f-> | f-> f-> \revert NoteHead.style  }
    			{ f2.~ }
 		}
 		f4. r \bar "|."
@@ -45,7 +45,7 @@ Tekst = \lyricmode {
 	}
 	}
 	\new Lyrics { \lyricsto "melody" {
-        O -- vens toe -- ten, kies me goe -- te, hesp en pis -- to -- lees.
+		O -- vens toe -- ten, kies me goe -- te, hesp en pis -- to -- lees.
 		Stoempes a op et zen ech -- te din -- 
 		\repeat unfold 4 { \skip 1 }
 		ees. Ien, twie, drai.	

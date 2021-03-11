@@ -2,7 +2,7 @@ Titel = "'t Is stil aan de overkant (Go West)"
 Componist = "The Pet Shop Boys"
 Muziek = \relative c'' {
 	\key c \major  
-    \time 4/4
+	\time 4/4
 	\partial 4	g4 |
 	\repeat volta 2 {
 		e'2. d8 c | d4 b8 g8~g4 g4 | c2.  b8 a | b4 g8 e8~e4 e4 |
