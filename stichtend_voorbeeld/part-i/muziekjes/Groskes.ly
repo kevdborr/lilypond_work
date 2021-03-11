@@ -25,5 +25,3 @@ Tekst = \lyricmode {
 	De pro -- ces va Sin -- tje Vruun __ dei es toch zuu skuun __
 }
 \include "MusicInc.inc"
-
-

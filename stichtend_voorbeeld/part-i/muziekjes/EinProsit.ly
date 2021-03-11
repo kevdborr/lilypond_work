@@ -3,7 +3,7 @@ Componist = "Trad. Duits"
 Muziek = \relative c'' {
 	\key c \major
 	\time 12/8
-	\partial 4. g8^"Intro (optioneel)" a g | 
+	\partial 4. g8^"Intro (opt.)" a g | 
 	e'4 e8 d4 d8 c4 g8 g a g | f'4 f8 e4 e8 d4. g,8 a g | e'4 e8 d4 d8 c4 g8 g a g | g a g g a b c r4 
 	g4. \bar "||"
 	\time 4/4

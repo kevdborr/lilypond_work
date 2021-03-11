@@ -127,3 +127,19 @@ newSection = "Traditioneel in Lembeek"
 \pageBreak
 \include "Groskes.ly"
 %--------------------------------------------------------------------------------------------------------------------------	
+\pageBreak
+newSection = "Rustig beginnen met een wals'ke?"
+\include "SectionInc.inc"
+\include "PurperenHei.ly"
+\include "Hofbrauhaus.ly"
+\pageBreak
+\include "Sneeuwwals.ly"
+
+\include "TweeOgenZoBlauw.ly"
+\pageBreak
+\include "Auborddelain.ly"
+\include "Bibber.ly"
+\include "FrouFrou.ly"
+
+
+%--------------------------------------------------------------------------------------------------------------------------	
