@@ -112,4 +112,6 @@ newSection = "Voor de Gelegenheid"
 \include "EinProsit.ly"
 \include "JaDatVoelenWij.ly"
 \include "Gendarme.ly"
+\include "Adieu.ly"
+\include "GoWest.ly"
 %--------------------------------------------------------------------------------------------------------------------------	
