@@ -99,19 +99,26 @@ tocSection = #(define-music-function (parser location text) (markup?)
 \markup \vspace #2
 \markup \tiny "Gebruiksaanwijzing: afdrukken op A4 landscape met 4 pagina's per bladzijde, lange en korte zijde middendoor knippen"
 %--------------------------------------------------------------------------------------------------------------------------	
-% \markup " "
-% \pageBreak	
-
 \pageBreak
 newSection = "Voor de Gelegenheid"
 \include "SectionInc.inc" 
-\include "HappyBirthday.ly"
-\include "LangZalZeLeven.ly"
-\include "ErIsErEenJarig.ly"
+\include "muziekjes/HappyBirthday.ly"
+\include "muziekjes/LangZalZeLeven.ly"
+\include "muziekjes/ErIsErEenJarig.ly"
 \pageBreak
-\include "EinProsit.ly"
-\include "JaDatVoelenWij.ly"
-\include "Gendarme.ly"
-\include "Adieu.ly"
-\include "GoWest.ly"
+\include "muziekjes/EinProsit.ly"
+\include "muziekjes/JaDatVoelenWij.ly"
+\include "muziekjes/GoWest.ly"
+\pageBreak
+\include "muziekjes/Gendarme.ly"
+\include "muziekjes/Adieu.ly"
+%--------------------------------------------------------------------------------------------------------------------------	
+\pageBreak
+newSection = "Hits in Lembeek"
+\include "SectionInc.inc" 
+\include "OpZeLembeiks.ly"
+\include "Lembecquois.ly"
+\pageBreak
+\include "PasenWoensdag.ly"
+\pageBreak
 %--------------------------------------------------------------------------------------------------------------------------	

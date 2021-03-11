@@ -5,8 +5,7 @@ ClefChoice =
    #{
      \clef G
    #})
-Voettekst = \markup \fill-line 
-{
-  \line { "B" \flat " PART I - verzoeknummers & mailinglist: stichtendvoorbeeld@gmail.com (11/3/2021)" }
+Voettekst = \markup \fill-line {
+	\line { "B" \flat " PART I - verzoeknummers & mailinglist: stichtendvoorbeeld@gmail.com (11/3/2021)" }
 }
 \include "Muziekjes.ly"

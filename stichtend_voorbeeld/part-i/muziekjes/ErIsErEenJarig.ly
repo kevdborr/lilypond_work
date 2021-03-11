@@ -19,5 +19,4 @@ Tekst = \lyricmode {
     hoe -- ra hoe -- ra! Zij le -- ve lang hoe -- ra! Er -ra! 
 }
 \include "MusicInc.inc"
-\markup ""
 \markup \vspace #1
