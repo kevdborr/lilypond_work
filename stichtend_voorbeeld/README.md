@@ -1,7 +1,7 @@
 # To do
 
 - [ ] Part I
-	- [X]
+	- [X] Voor de gelegenheid
 	- [ ] Populair in Lembeek
 	- [ ] Bekende meezingers
 	- [ ] Met dansjes erbij
