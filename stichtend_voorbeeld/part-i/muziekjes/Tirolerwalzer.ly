@@ -72,8 +72,7 @@ Muziek = \relative c'' {
     \once \override TextScript.word-space = #1.5
     <>^\markup { 
 		\center-column { 
-			"D.S. al Coda" 
-			\line { \musicglyph #"scripts.segno" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda"} 
+			"D.S. al Fine"
 		} 
 	}
     % Increasing the unfold counter will expand the staff-free space

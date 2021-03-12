@@ -115,25 +115,20 @@ newSection = "Voor de gelegenheid"
 \include "muziekjes/Adieu.ly"
 %--------------------------------------------------------------------------------------------------------------------------	
 \pageBreak
-newSection = "Rustig beginnen met een wals'ke?"
+newSection = "Beginnen met een rustig wals'ke?"
 \include "SectionInc.inc"
-\include "PurperenHei.ly"
-\include "Hofbrauhaus.ly"
-
 \include "Sneeuwwals.ly"
+\include "Hofbrauhaus.ly"
 \pageBreak
 \include "WildRover.ly"
 \pageBreak
-\include "WalsPolle.ly"
-\include "TweeOgenZoBlauw.ly"
-
-\include "Auborddelain.ly"
-\pageBreak
 \include "Tirolerwalzer.ly"
+\pageBreak
+\include "WalsPolle.ly"
+\include "Auborddelain.ly"
 \pageBreak
 \include "Bibber.ly"
 \include "FrouFrou.ly"
-
 %--------------------------------------------------------------------------------------------------------------------------	
 \pageBreak
 newSection = "Traditioneel in Lembeek"
@@ -148,3 +143,10 @@ newSection = "Traditioneel in Lembeek"
 \include "Lembecquois.ly"
 \pageBreak
 \include "Fehrbelliner.ly"
+%--------------------------------------------------------------------------------------------------------------------------	
+\pageBreak
+newSection = "Bekende meezingers"
+\include "SectionInc.inc"
+\include "PurperenHei.ly"
+\pageBreak
+\include "TweeOgenZoBlauw.ly"

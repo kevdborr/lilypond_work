@@ -1,6 +1,6 @@
 
 Titel = "Bibberwals"
-Componist = "Traditioneel Duits"
+Componist = "Trad. Duits"
 Muziek = \relative c' {
 	\key bes \major  
 	\time 3/4

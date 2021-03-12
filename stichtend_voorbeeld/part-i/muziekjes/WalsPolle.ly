@@ -32,5 +32,5 @@ Akkoorden = \transpose g c \chords  {
 	
 Tekst = \lyricmode {  }
 \include "MusicInc.inc"
-\markup "Met dank aan Jan Vankeerberghen"
+\markup "Met dank aan Jan Vankeerberghen."
 \markup \vspace #1
