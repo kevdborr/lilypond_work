@@ -115,7 +115,7 @@ newSection = "Voor de gelegenheid"
 \include "muziekjes/Adieu.ly"
 %--------------------------------------------------------------------------------------------------------------------------	
 \pageBreak
-newSection = "Beginnen met een rustig wals'ke?"
+newSection = "Beginnen met een rustig walske?"
 \include "SectionInc.inc"
 \include "Sneeuwwals.ly"
 \include "Hofbrauhaus.ly"
