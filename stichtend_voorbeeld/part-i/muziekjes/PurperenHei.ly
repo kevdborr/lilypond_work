@@ -6,16 +6,18 @@ Muziek = \relative c'' {
 	\partial 4 c4^"Intro" |
 	e2. e2 d4 c2 d4 c2 bes4 a2. a2 g4 f2.~ f2. \bar "||"
 
-	c2^"Couplet" a'4 a2 g4 g2. f2. e2 d4 d2 cis4 d2.~ d2.
-	d2 bes'4 bes2 a4 a2. g2. g2 f4 f2 a4 c2.~ c2.
-	c,2 c'4 c2 bes4 bes2. a2. g2 f'4 f2 e4 d2.~ d2.
-	c2 c4 c2 c4 d2 c4 a2 f4 a2. g g~g2
+	c2^"Couplet" a'4 a2 g4 \break 
+	g2. f2. e2 d4 d2 cis4 d2.~ d2.
+	d2 bes'4 bes2 a4 a2. g2. \break
+	g2 f4 f2 a4 c2.~ c2.
+	c,2 c'4 c2 bes4 bes2. a2. g2 f'4 f2 e4 \break 
+	d2.~ d2. c2 c4 c2 c4 d2 c4 a2 f4 a2. g g~g2
 
-	c,4 \bar "||"
-	f2.^"Refrein" g2 g4 a2. a2 bes4 c2. c2 bes4 a2.~a2 c4 
-	f2. c2 c4 d2 c4 a2 c4 bes2. bes2 a4 g2.~g2 d4 
-	g2. a2 a4 bes2. bes2 c4 bes2. bes2 a4 g2.~g2
-	c4 e2. e2 d4 c2 d4 c2 bes4 a2. a2 g4 f2.~f2
+	c,4 \bar "||" \break
+	f2.^"Refrein" g2 g4 a2. a2 bes4 c2. c2 bes4 a2.~a2 c4 \break 
+	f2. c2 c4 d2 c4 a2 c4 bes2. bes2 a4 g2.~g2 d4 \break 
+	g2. a2 a4 bes2. bes2 c4 bes2. bes2 a4 g2.~g2 c4 \break
+	e2. e2 d4 c2 d4 c2 bes4 a2. a2 g4 f2.~f2
 	\bar "|."
 }
 

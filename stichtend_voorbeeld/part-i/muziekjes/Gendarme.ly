@@ -12,7 +12,6 @@ Akkoorden = \chords { f2 s bes f s bes c s f s bes a:m g:m f c f }
 Tekst = \lyricmode {  }
 
 \include "MusicInc.inc"
-
 \markuplist {
 	\justify {
 		Het Stichtend Voorbeeld zegt: Deze klassieker is bijzonder populair bij de afdaling van 'De Karenberg' in Lembeek. 

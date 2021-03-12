@@ -53,7 +53,7 @@ Auteur = "door Johan Rimez en Kenneth Vandenborre"
 }
 \layout {
 	\context { 
-		\Score \override LyricText #'font-size = #-0.5 
+		\Score \override LyricText #'font-size = #0.8
 		\remove "Bar_number_engraver"
 	}
 }
@@ -94,13 +94,14 @@ tocSection = #(define-music-function (parser location text) (markup?)
     	\fill-line { \epsfile #Y #80 #"../sintveroon-approved.eps"  } 
 	}
 }
+
 \markup \vspace #2
 \markuplist \table-of-contents
 \markup \vspace #2
 \markup \tiny "Gebruiksaanwijzing: afdrukken op A4 landscape met 4 pagina's per bladzijde, lange en korte zijde middendoor knippen"
 %--------------------------------------------------------------------------------------------------------------------------	
 \pageBreak
-newSection = "Voor de Gelegenheid"
+newSection = "Voor de gelegenheid"
 \include "SectionInc.inc" 
 \include "muziekjes/HappyBirthday.ly"
 \include "muziekjes/LangZalZeLeven.ly"
@@ -108,38 +109,42 @@ newSection = "Voor de Gelegenheid"
 \pageBreak
 \include "muziekjes/EinProsit.ly"
 \include "muziekjes/JaDatVoelenWij.ly"
-\include "muziekjes/GoWest.ly"
-\pageBreak
 \include "muziekjes/Gendarme.ly"
+\pageBreak
+\include "muziekjes/GoWest.ly"
 \include "muziekjes/Adieu.ly"
-%--------------------------------------------------------------------------------------------------------------------------	
-\pageBreak
-newSection = "Traditioneel in Lembeek"
-\include "SectionInc.inc" 
-\include "OpZeLembeiks.ly"
-\include "Lembecquois.ly"
-\pageBreak
-\include "Fehrbelliner.ly"
-\pageBreak
-\include "Smurfen.ly"
-\pageBreak
-\include "PasenWoensdag.ly"
-\pageBreak
-\include "Groskes.ly"
 %--------------------------------------------------------------------------------------------------------------------------	
 \pageBreak
 newSection = "Rustig beginnen met een wals'ke?"
 \include "SectionInc.inc"
 \include "PurperenHei.ly"
 \include "Hofbrauhaus.ly"
-\pageBreak
-\include "Sneeuwwals.ly"
 
-\include "TweeOgenZoBlauw.ly"
+\include "Sneeuwwals.ly"
 \pageBreak
+\include "WildRover.ly"
+\pageBreak
+\include "WalsPolle.ly"
+\include "TweeOgenZoBlauw.ly"
+
 \include "Auborddelain.ly"
+\pageBreak
+\include "Tirolerwalzer.ly"
+\pageBreak
 \include "Bibber.ly"
 \include "FrouFrou.ly"
 
-
 %--------------------------------------------------------------------------------------------------------------------------	
+\pageBreak
+newSection = "Traditioneel in Lembeek"
+\include "SectionInc.inc" 
+\include "Groskes.ly"
+\pageBreak
+\include "PasenWoensdag.ly"
+\pageBreak
+\include "OpZeLembeiks.ly"
+\pageBreak
+\include "Smurfen.ly"
+\include "Lembecquois.ly"
+\pageBreak
+\include "Fehrbelliner.ly"

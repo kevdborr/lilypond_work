@@ -13,13 +13,10 @@ Muziek = \relative c' {
   
   		r4^"Refrein" f8 g \bar "||"
   		a8 a bes a g f f g
-  		a16 a a a bes8 a g f a bes \break 
-  		c c d c bes a bes c 
-  		bes2~bes8. g16 g8 a
-  		bes8 bes c bes a g f f16 g \break
-  		a8 a bes a g f e f 
-  		g g a g f e d e 
-  		f2~f
+  		a16 a a a bes8 a g f a bes 
+  		c c d c bes a bes c bes2~ \break 
+  		bes8. g16 g8 a bes8 bes c bes a g f f16 g 
+  		a8 a bes a g f e f g g a g f e d e f2~f
 	}
 }
 

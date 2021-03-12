@@ -39,7 +39,7 @@ Tekst = \lyricmode {
 		\repeat unfold 4 { \skip 1 }
 		En doe -- ba een schuun en aaw pro -- ces.
 		Me ons voet -- volk en ons ca -- val -- ies __ \skip 1 \skip 1 \skip 1
-		T'es op ze Lemb -- beiks.
+		T'es __ op ze Lemb -- beiks.
 		Als't pro -- ces uit goet den is er de Lem -- bei -- ke -- nier er geere-baa.
 		Ien, twie, drai.
 	}
@@ -48,10 +48,9 @@ Tekst = \lyricmode {
 		O -- vens toe -- ten, kies me goe -- te, hesp en pis -- to -- lees.
 		Stoempes a op et zen ech -- te din -- 
 		\repeat unfold 4 { \skip 1 }
-		ees. Ien, twie, drai.	
-		'sAo -- vens is de gruu -- te slag ge -- doen.
-		En kunnen de saldotjes nimie op ele beene stoen __ \skip 1 \skip 1 \skip 1
-		T'es op ze Lemb -- beiks.
+		ees. Ien, twie, drai.
+		\repeat unfold 21 { \skip 1}
+		T'es __ op ze Lemb -- beiks.
 		Zet ne voet in de zep en zie va God es noe maa __.
 		}
 	}
@@ -59,15 +58,20 @@ Tekst = \lyricmode {
 }
 \include "MusicInc.inc"
 \markup \vspace #1
-\markuplist {
-	\justify {
-		Tweede couplet:
-		's Moandags smergens van de kermes als kleroonske bloest, weere de Jefkes heule sens geteld.
-		Ien, twie, drai.
-		Klopt derop, me vol galop begint den offenseef, tegen de geuze en ander zuipgereef.
-		Ien, twie, drai.
-	}	
+\markup {
+   \column {
+	  \line {Tweede couplet:}
+	  \line {'s Mondoags smergens van de kermes as kleroonske bloest }
+	  \line {Weere de Jefkes heule sens geteld.}
+	  \line {Ien, twie, drai.}
+	  \line {Klopt derop, me vol galop begint den offenseef }
+	  \line {Tege de geuze en ander zuipgereef.}
+	  \line {Ien, twie, drai.}
+	  \line {s' Oavens es de gruute slag gedoen }
+	  \line {en kunnen de saldotjes nimie op ele beene stoen.}
+	}
 }
+
 \markup \vspace #0.5
 \markup { Met dank aan Felix Gremmelprez.}
 \markup \vspace #1
