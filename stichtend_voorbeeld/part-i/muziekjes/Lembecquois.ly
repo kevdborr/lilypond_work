@@ -4,7 +4,7 @@ Muziek = \relative c'
 {
 	\key bes \major  
 	\time 2/4
-	\partial 4 f8.^"Snel" bes16 |
+	\partial 4 f8. bes16 |
    	\repeat volta 2 {
    		d4 d | d es8. d16 | c8 bes c4~| c f,8. a16 | c4 c | 
 		c f8. es16 | d2~ | d4 f,8. bes16 | d2~ | d8. d16 g8. f16 |

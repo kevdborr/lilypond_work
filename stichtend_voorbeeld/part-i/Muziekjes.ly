@@ -150,3 +150,9 @@ newSection = "Bekende meezingers"
 \include "PurperenHei.ly"
 \pageBreak
 \include "TweeOgenZoBlauw.ly"
+\include "Chachacha.ly"
+\pageBreak
+\include "Eenzaam.ly"
+\include "ElBandido.ly"
+\pageBreak
+\include "HebJeEven.ly"

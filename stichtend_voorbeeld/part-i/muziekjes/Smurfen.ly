@@ -1,17 +1,17 @@
 Titel = "Mezeek, Pjeire en Saldoete"
-Componist = "Iemand uit Lembeek"
+Componist = "Iemand uit Lembeek?"
 Muziek = \relative c' {	   
 	\key f \major  
 	\time 2/4
-	\partial 4 c8^"Intro" f
+	\partial 4 c8 f
 	a4 a a8. a16 d8 c bes8. f16 g8 a bes r bes4 a4. f8 g4. e8 f8. f16 a8 c f r f-> r \break
 	\repeat volta 2 {
-		f,8^"Strofe" f f c d bes c4 a'8 a a16 a f8 g e f4 
+		f,8 f f c d bes c4 a'8 a a16 a f8 g e f4 
 		f8 f f c d bes c4 a'8 a16 a a8 f16 f g8 e f4 \break 
 		f8 f16 f f8 c d bes c8. a'16 a8 a a f g e f4 
 		f8 f f c d bes c4 a'16 a a8 a f g e f4 \break 
   
-  		r4^"Refrein" f8 g \bar "||"
+  		r4 f8 g \bar "||"
   		a8 a bes a g f f g
   		a16 a a a bes8 a g f a bes 
   		c c d c bes a bes c bes2~ \break 

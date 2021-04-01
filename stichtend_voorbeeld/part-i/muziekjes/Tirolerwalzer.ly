@@ -10,9 +10,8 @@ Muziek = \relative c'' {
 	\repeat volta 2 { 
 		\once \override Score.RehearsalMark.font-size = #0.9
 		\mark \markup { \musicglyph #"scripts.segno" }
-		g8( e') e( d) d( c) | c( b) b( a) a( g) | g( b) b( g) b( g) | f4. g8 a g | g( b) b( g) b( g) |		
-		f4. g8 a g | g( c) c( g) c( g) | e4. g8 a g | g8( e') e( d) d( c) | c( b) b( a) a( g) | 
-		g( b) b( g) b( g) | f4. g8 a g | g( b) b( g) b( g) | f4. g8 a b | 
+		g8( e') e( d) d( c) | c( b) b( a) a( g) | g( b) b( g) b( g) | f4. g8 a g | g( b) b( g) b( g) | f4. g8 a g | g( c) c( g) c( g) | \break 
+		e4. g8 a g | g8( e') e( d) d( c) | c( b) b( a) a( g) | g( b) b( g) b( g) | f4. g8 a g | g( b) b( g) b( g) | f4. g8 a b | 
 		\once \override Score.RehearsalMark.font-size = #1.1
 		\mark \markup { \musicglyph #"scripts.coda" }
 		c4 b8( c) e d | 
@@ -21,6 +20,7 @@ Muziek = \relative c'' {
 	 	{ c4 r g8 g }
 		{ c4 r8 c b a}		   
 	} 
+	\break 
 	\repeat volta 2 {
 	   	g4 fis8 g a b | c( b) c d e4 | f8 e d f e d | c e d c b a | 
 	   	g4 fis8 g a b | c( b) c d e4 | f8 e d f e d |

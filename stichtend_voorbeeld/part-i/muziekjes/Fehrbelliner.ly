@@ -36,7 +36,7 @@ Muziek = \relative c' {
 	  	{ a8 \tuplet 3/2 {c16 c c} c8 \tuplet 3/2 {f16 f f} f8 a a16 a a8 c, \tuplet 3/2 {c16 c c}  c8 c f4-> f8[ r16 f] }
 	  	{ c8 c16 c c4-> }
 	}
-	f8 f16 f f4-> f8( g16 f e f g a bes8) bes16 bes bes8^\markup{\right-align D.C. al fine} \bar "|."
+	f8 f16 f f4-> f8( g16 f e f g a bes8) bes16 bes bes8^\markup{\right-align D.C. al Fine} \bar "|."
 }
 Akkoorden = \chords { }
 	

@@ -6,7 +6,7 @@ Muziek = \relative c''
 	\time 6/8
 	\new Voice = "melody" {
 		\repeat volta 2 {
-			c4^"Couplet" d8 c4 a8 | c4 d8 c4 a8 | c4 d8 c4 a8 |
+			c4 d8 c4 a8 | c4 d8 c4 a8 | c4 d8 c4 a8 |
 			f4. g4 g8 | a4.~a4 a8 | c4 bes8 a4 g8 |
   		}
   		\alternative {
@@ -17,7 +17,7 @@ Muziek = \relative c''
 		c4 c8 c4 d8 | c2.-> | bes-> | a-> | g->\fermata \break
 
 		\repeat volta 2 {
-   			c2.^"Refrein"~c4. e4 d8 | c4. g4.~g e'4 d8 | 
+   			c2.~c4. e4 d8 | c4. g4.~g e'4 d8 | 
 			c8 d c bes c bes | a bes a g a g | 
 		}
 		\alternative {
@@ -60,7 +60,6 @@ Tekst = \lyricmode {
 \markup \vspace #1
 \markup {
    \column {
-	  \line {Tweede couplet:}
 	  \line {'s Mondoags smergens van de kermes as kleroonske bloest }
 	  \line {Weere de Jefkes heule sens geteld.}
 	  \line {Ien, twie, drai.}

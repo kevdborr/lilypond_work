@@ -10,7 +10,7 @@ Muziek = \relative c' {
 	g4 b2 a4 g2.~g2.~g4 g a b a g c2.~c2.~c2
 	<<
 		{ 
-			\stemUp \set fontSize = #-2 s4 s2. r2 c8^"Trumpet" cis d4 r d8 des c4 r2 
+			\stemUp \set fontSize = #-2 s4 s2. r2 c8 cis d4 r d8 des c4 r2 
 			s2. r2 c8 cis d4 r d8 des c4 r2 s2. r2 c8 cis d4 r d8 des c4 r2 s2. r2 c8 cis d4 r d8 des c4 r2
 		}
 		\\

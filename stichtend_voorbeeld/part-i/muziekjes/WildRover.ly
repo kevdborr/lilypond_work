@@ -4,13 +4,14 @@ Muziek = \relative c'' {
 	\key g \major  
 	\time 3/4	   
 	\partial 4
-
-	g4^"Couplet" g4. a8 g4 e d b' b a b c2.~c2 b8 c
-	d4 b d c a fis d b' a g2.~g2 g4
-	g4. a8 g4 e d b' b a b c2.~c2 b8 c
-	d4 b d c a fis d b' a g fis^"Refrein" g \bar "||" a2. a
-	fis4 d2~d2.~d4 b' b b a b c2.~c4 b c
-	d2.~d4 b g fis e2~e e4 d b'2~b a4 g2.~g2 \bar "|."
+	\repeat volta 2 {
+		g4 g4. a8 g4 e d b' b a b c2.~c2 b8 c
+		d4 b d c a fis d b' a g2.~g2 g4
+		g4. a8 g4 e d b' b a b c2.~c2 b8 c
+		d4 b d c a fis d b' a g fis g \bar "||" a2. a
+		fis4 d2~d2.~d4 b' b b a b c2.~c4 b c
+		d2.~d4 b g fis e2~e e4 d b'2~b a4 g2.~g2
+	}
 }
 
 Akkoorden = \chords { }
@@ -24,6 +25,7 @@ Tekst = \lyricmode 	{
 		play the wild ro -- ver, no, ne -- ver, no more.
 	}
 \include "MusicInc.inc"
+\markup \vspace #1
 \markup {
    \column {
 	  \line {I went in to an alehouse I used to frequent}
