@@ -103,56 +103,178 @@ tocSection = #(define-music-function (parser location text) (markup?)
 \pageBreak
 newSection = "Voor de gelegenheid"
 \include "SectionInc.inc" 
-\include "muziekjes/HappyBirthday.ly"
-\include "muziekjes/LangZalZeLeven.ly"
-\include "muziekjes/ErIsErEenJarig.ly"
+\include "Gelegenheid/HappyBirthday.ly"
+\include "Gelegenheid/LangZalZeLeven.ly"
+\include "Gelegenheid/ErIsErEenJarig.ly"
 \pageBreak
-\include "muziekjes/EinProsit.ly"
-\include "muziekjes/JaDatVoelenWij.ly"
-\include "muziekjes/Gendarme.ly"
+\include "Gelegenheid/EinProsit.ly"
+\include "Gelegenheid/JaDatVoelenWij.ly"
+\include "Gelegenheid/Gendarme.ly"
 \pageBreak
-\include "muziekjes/GoWest.ly"
-\include "muziekjes/Adieu.ly"
+\include "Gelegenheid/GoWest.ly"
+\include "Gelegenheid/Adieu.ly"
+
 %--------------------------------------------------------------------------------------------------------------------------	
 \pageBreak
 newSection = "Beginnen met een rustig walske?"
 \include "SectionInc.inc"
-\include "Sneeuwwals.ly"
-\include "Hofbrauhaus.ly"
+\include "Wals/Sneeuwwals.ly"
+\include "Wals/Hofbrauhaus.ly"
 \pageBreak
-\include "WildRover.ly"
+\include "Wals/WildRover.ly"
 \pageBreak
-\include "Tirolerwalzer.ly"
+\include "Wals/Tirolerwalzer.ly"
 \pageBreak
-\include "WalsPolle.ly"
-\include "Auborddelain.ly"
+\include "Wals/WalsPolle.ly"
+\include "Wals/Auborddelain.ly"
 \pageBreak
-\include "Bibber.ly"
-\include "FrouFrou.ly"
+\include "Wals/Bibber.ly"
+\include "Wals/FrouFrou.ly"
+
 %--------------------------------------------------------------------------------------------------------------------------	
 \pageBreak
 newSection = "Traditioneel in Lembeek"
 \include "SectionInc.inc" 
-\include "Groskes.ly"
+\include "Lembeek/Groskes.ly"
 \pageBreak
-\include "PasenWoensdag.ly"
+\include "Lembeek/PasenWoensdag.ly"
 \pageBreak
-\include "OpZeLembeiks.ly"
+\include "Lembeek/OpZeLembeiks.ly"
 \pageBreak
-\include "Smurfen.ly"
-\include "Lembecquois.ly"
+\include "Lembeek/Smurfen.ly"
+\include "Lembeek/Lembecquois.ly"
 \pageBreak
-\include "Fehrbelliner.ly"
+\include "Lembeek/Fehrbelliner.ly"
+
 %--------------------------------------------------------------------------------------------------------------------------	
 \pageBreak
 newSection = "Bekende meezingers"
 \include "SectionInc.inc"
-\include "PurperenHei.ly"
+\include "Meezinger/PurperenHei.ly"
 \pageBreak
-\include "TweeOgenZoBlauw.ly"
-\include "Chachacha.ly"
+\include "Meezinger/TweeOgenZoBlauw.ly"
+\include "Meezinger/Chachacha.ly"
 \pageBreak
-\include "Eenzaam.ly"
-\include "ElBandido.ly"
+\include "Meezinger/Eenzaam.ly"
+\include "Meezinger/ElBandido.ly"
 \pageBreak
-\include "HebJeEven.ly"
+\include "Meezinger/HebJeEven.ly"
+\include "Meezinger/MarieLouise.ly"
+\include "Meezinger/Mexico.ly"
+\include "Meezinger/VrolijkeVrienden.ly"
+
+%--------------------------------------------------------------------------------------------------------------------------	
+\pageBreak
+newSection = "Polonaise hits"
+\include "SectionInc.inc"
+\include "Polonaise/Ruit.ly"
+\include "Polonaise/Rosemarie.ly"
+
+%--------------------------------------------------------------------------------------------------------------------------	
+\pageBreak
+newSection = "Leuke dansjes"
+\include "SectionInc.inc"
+\include "Dansjes/HinkyPinky.ly"
+\include "Dansjes/Hoofd.ly"
+\include "Dansjes/Kabouterdans.ly"
+\include "Dansjes/Oyalele.ly"
+\include "Dansjes/Vogelkesdans.ly"
+
+%--------------------------------------------------------------------------------------------------------------------------	
+\pageBreak
+newSection = "Habla Español"
+\include "SectionInc.inc"
+\include "Espanol/Besame.ly"
+\include "Espanol/Cabeza.ly"
+\include "Espanol/Colegiala.ly"
+\include "Espanol/Cucaracha.ly"
+\include "Espanol/Guantanamera.ly"
+\include "Espanol/Lambada.ly"
+\include "Espanol/Paloma.ly"
+\include "Espanol/Pepito.ly"
+\include "Espanol/Quizas.ly"
+\include "Espanol/SpanishEyes.ly"
+\include "Espanol/Tequila.ly"
+
+%--------------------------------------------------------------------------------------------------------------------------	
+\pageBreak
+newSection = "Viva Italia"
+\include "SectionInc.inc"
+\include "Italia/Gigi.ly"
+\include "Italia/Marina.ly"
+\include "Italia/Quando.ly"
+\include "Italia/Venice.ly"
+
+%--------------------------------------------------------------------------------------------------------------------------	
+\pageBreak
+newSection = "De verplichte smartlap"
+\include "SectionInc.inc"
+\include "Smartlap/SwingIntro.ly"
+\include "Smartlap/AllofMe.ly"
+\include "Smartlap/Cestsibon.ly"
+\include "Smartlap/Riverside.ly"
+\include "Smartlap/HelloDolly.ly"
+\include "Smartlap/IceCream.ly"
+\include "Smartlap/Misty.ly"
+\include "Smartlap/Sheik.ly"
+\include "Smartlap/Sunshine.ly"
+\include "Smartlap/SwingRik.ly"
+\include "Smartlap/TheSaints.ly"
+\include "Smartlap/Willyoumeetus.ly"
+
+%--------------------------------------------------------------------------------------------------------------------------	
+\pageBreak
+newSection = "Voor de techniekers"
+\include "SectionInc.inc"
+\include "Techniekers/Billard.ly"
+\include "Techniekers/Clippe.ly"
+\include "Techniekers/JeanBoek.ly"
+\include "Techniekers/JefPiston.ly"
+\include "Techniekers/Plaisanterie.ly"
+\include "Techniekers/PolkaEmile.ly"
+\include "Techniekers/PolkaPetits.ly"
+\include "Techniekers/TubaMusette.ly"
+
+%--------------------------------------------------------------------------------------------------------------------------	
+\pageBreak
+newSection = "Nog meer muziekjes"
+\include "SectionInc.inc"
+\include "NogMeer/AmstelPolka.ly"
+\include "NogMeer/Caravan.ly"
+\include "NogMeer/Boerinnekes.ly"
+\include "NogMeer/Copacabana.ly"
+\include "NogMeer/Dancewithme.ly"
+\include "NogMeer/GummiMambo.ly"
+\include "NogMeer/Holz.ly"
+\include "NogMeer/WarmeDagen.ly"
+\include "NogMeer/ItsASmallWorld.ly"
+\include "NogMeer/MagicTrumpet.ly"
+\include "NogMeer/Marietje.ly"
+\include "NogMeer/Rosamunde.ly"
+\include "NogMeer/Rossignol.ly"
+\include "NogMeer/RumCocaCola.ly"
+\include "NogMeer/SambaOrfeu.ly"
+\include "NogMeer/Sweet.ly"
+\include "NogMeer/TrompetenEcho.ly"
+\include "NogMeer/VrolijkLentelied.ly"
+\include "NogMeer/Watzullenwedrinken.ly"
+\include "NogMeer/Wien.ly"
+\include "NogMeer/WillemTell.ly"
+
+%--------------------------------------------------------------------------------------------------------------------------	
+\pageBreak
+newSection = "Gilles de Binche"
+\include "SectionInc.inc"
+\include "Gilles/Gilles1.ly"
+\include "Gilles/Gilles2.ly"
+\include "Gilles/Gilles3.ly"
+\include "Gilles/Gilles5.ly"
+\include "Gilles/Gilles6.ly"
+\include "Gilles/Gilles7.ly"
+\include "Gilles/Gilles9.ly"
+\include "Gilles/Gilles11.ly"
+\include "Gilles/Gilles12.ly"
+\include "Gilles/Gilles24.ly"
+\include "Gilles/Gilles97.ly"
+\include "Gilles/Gilles98.ly"
+\include "Gilles/Gilles99.ly"
